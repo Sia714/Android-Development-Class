@@ -24,6 +24,7 @@ fun main(args:Array<String>) {
 }
 
 
+
 fun main(args:Array<String>) {
     var a=40// intitialised but not defined
     var b:Int// defined but not initialised
@@ -31,22 +32,22 @@ fun main(args:Array<String>) {
 }
 
 
-class Person{
-    var kotlin="hello"
-    fun main(args:Array<String>) {
-        print(kotlin)
-	}
-}  
-//Exception in thread "main" java.lang.IllegalArgumentException: No main method found in project
-at com.compiler.server.compiler.components.KotlinCompiler.run$lambda$3 (KotlinCompiler.kt:67) at com.compiler.server.compiler.components.KotlinCompiler.execute$lambda$15 (KotlinCompiler.kt:148) at com.compiler.server.compiler.components.CliUtilsKt.usingTempDirectory (CliUtils.kt:120)
+// class Person{
+//     var kotlin="hello"
+//     fun main(args:Array<String>) {
+//         print(kotlin)
+// 	}
+// }  
+//Exception in thread "main" java.lang.IllegalArgumentException: No main method found in project at com.compiler.server.compiler.components.KotlinCompiler.run$lambda$3 (KotlinCompiler.kt:67) at com.compiler.server.compiler.components.KotlinCompiler.execute$lambda$15 (KotlinCompiler.kt:148) at com.compiler.server.compiler.components.CliUtilsKt.usingTempDirectory (CliUtils.kt:120)
 
 
 class Person{
     var kotlin="hello"
     fun displayInfo() {
         print(kotlin)
-	}
+    }
 }  
+
 fun main(){
     val Per=Person()
     Per.displayInfo()
