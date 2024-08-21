@@ -52,7 +52,7 @@ fun main(){
  				""";  
     print(name)
 }
-// 	Sayjan
+//       Sayjan
 // Sayjan		Sayjan
-//  	Sayjan
+//  	 Sayjan
  				
