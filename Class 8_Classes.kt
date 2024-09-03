@@ -67,7 +67,7 @@ open class Rectangle(val a:Double, val b:Double){
 }
 class Square(side: Double): Rectangle(side,side){
     override fun display(){
-         println("Area of rectangle with dimensions $a is ${area()}")
+         println("Area of square with dimensions $a is ${area()}")
     
     }
 }
@@ -78,4 +78,4 @@ fun main(){
     mysqu.display()
 }
 //Area of rectangle with dimensions 4.0 * 5.0 is 20.0
-//Area of rectangle with dimensions 3.0 is 9.0
+//Area of square with dimensions 3.0 is 9.0
